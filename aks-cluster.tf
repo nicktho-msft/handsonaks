@@ -12,10 +12,10 @@ resource "azurerm_resource_group" "default" {
 }
 
 resource "azurerm_kubernetes_cluster" "default" {
-  name                = "${var.naming_prefix}-aks"
+  name                = "${var.naming_prefix}"
   location            = azurerm_resource_group.default.location
   resource_group_name = azurerm_resource_group.default.name
-  dns_prefix          = "${var.naming_prefix}-aks-dns"
+  dns_prefix          = "${var.naming_prefix}-dns"
 
   default_node_pool {
     name            = "default"
