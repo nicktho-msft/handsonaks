@@ -9,3 +9,6 @@ Going thru this book listed here, co-authored by fellow Cloud Architect at Micro
 
 ### Issues encountered
 Using MSFT non-prod Azure tenant, ran into issues authenticating via az cli. This very simple doc helped me: [Switch Tenants in Azure CLI](https://dallin.blog/switch-tenants-in-azure-cli/).
+
+### Add alias for kubectl command
+`alias k='kubectl'`
