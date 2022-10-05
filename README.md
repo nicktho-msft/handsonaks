@@ -21,4 +21,4 @@ Steps to remediate:
 `alias k='kubectl'`
 
 ### Fix WSL DNS issues
-I found a solution at (git@github.com:nicktho-msft/build-resilient-iaas-architecture.git)
+I found a solution at ([git@github.com:nicktho-msft/build-resilient-iaas-architecture.git](https://gist.github.com/djfdyuruiry/8ec94d6454fbacccafb092022fe041a3))
