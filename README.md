@@ -19,3 +19,6 @@ Steps to remediate:
 
 ### Add alias for kubectl command
 `alias k='kubectl'`
+
+### Fix WSL DNS issues
+I found a solution at (git@github.com:nicktho-msft/build-resilient-iaas-architecture.git)
